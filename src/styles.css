@@ -4,7 +4,6 @@ body {
   background-color: black;
   margin: 0;
   padding: 20px;
-  color: #333;
 }
 
 .white-text {
@@ -18,7 +17,7 @@ body {
   align-items: center;
   padding: 10px 20px;
   background-color: black;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid gray;
 }
 
 .logo {
@@ -37,13 +36,13 @@ body {
   font-weight: bold;
   background: linear-gradient(
     to right,
-    #ff0000,
-    #ff7f00,
-    #ffff00,
-    #00ff00,
-    #0000ff,
-    #4b0082,
-    #8b00ff
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -55,13 +54,13 @@ body {
   font-weight: bold;
   background: linear-gradient(
     to right,
-    #ff0000,
-    #ff7f00,
-    #ffff00,
-    #00ff00,
-    #0000ff,
-    #4b0082,
-    #8b00ff
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -75,13 +74,13 @@ body {
   border-image-slice: 1;
   border-image-source: linear-gradient(
     to right,
-    #ff0000,
-    #ff7f00,
-    #ffff00,
-    #00ff00,
-    #0000ff,
-    #4b0082,
-    #8b00ff
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
   );
   border-radius: 10px;
   padding: 15px;
@@ -99,21 +98,17 @@ body {
   text-align: left;
 }
 
-.product-card:hover {
-  transform: translateY(-5px);
-}
-
 /* Buttons */
 .rainbow-button {
   background: linear-gradient(
     to right,
-    #ff0000,
-    #ff7f00,
-    #ffff00,
-    #00ff00,
-    #0000ff,
-    #4b0082,
-    #8b00ff
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
   );
   border: none;
   color: white;
@@ -123,11 +118,6 @@ body {
   border-radius: 5px;
   cursor: pointer;
   transition: opacity 0.3s;
-}
-
-/* hover change */
-.rainbow-button:hover {
-  opacity: 0.8;
 }
 
 /* image size properties */
@@ -153,6 +143,6 @@ body {
   padding: 10px;
   margin: 20px 0;
   font-size: 1rem;
-  border: 2px solid #ddd;
+  border: 2px solid white;
   border-radius: 5px;
 }

@@ -11,7 +11,7 @@ const Cart = () => {
 
   // Function to handle navigation to the checkout page
   const goToCheckout = () => {
-    navigate("/checkout"); // Navigate to the '/checkout' route
+    navigate("/checkout");
   };
 
   // Function to handle quantity change
