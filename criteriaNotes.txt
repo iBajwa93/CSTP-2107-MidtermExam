@@ -1,0 +1,53 @@
+ and Requirements
+ 1.Home Page: Display a list of products with basic
+ details like product name, price, and category.
+ 2.Product Details Page:
+ ○ Show detailed information for a selected
+ product, including the image, description,
+ price, and rating.
+ ○ Include an "Add to Cart" button to add the
+ item to the shopping cart.
+
+ 3.Shopping Cart:
+ ○ Allow users to view items added to the cart,
+ with a summary including quantity, price,
+ and total cost.
+ ○ Users should be able to update item
+ quantities or remove items from the cart.
+ ○ Use Context API to manage the cart state
+ globally, so it’s accessible throughout the
+ app.
+
+4.Search Functionality:
+ ○ Implement a search bar to allow users to
+ search products by name.
+ 5.Checkout Page:
+ ○ Provide a summary of the cart with a total
+ amount.
+ ○ Include a mock checkout button to simulate
+ the purchase process.
+
+ 6.Navigation:
+ ○ Implement navigation with React Router:
+ ■ Home: Displays all products.
+ ■ Product Details: Shows details for a
+ selected product.
+ ■ Cart: Displays all items in the shopping
+ cart.
+ ■ Checkout: Summarizes items before
+ purchase.
+
+ 7.React Hooks:
+ ○ Use useState and Context to manage
+ component states
+ ○ Use useEffect for fetching data from the
+ API.
+ 
+APIS TO USE
+ Get All Products:
+ https://fakestoreapi.com/products
+ Get Products by Category:
+ https://fakestoreapi.com/products/categ
+ ory/{category}
+ Get Product by ID:
+ https://fakestoreapi.com/products/{id}
